@@ -1,0 +1,147 @@
+.head{
+    color: rebeccapurple;
+}
+header{
+    position:relative;
+    bottom:0.49rem;
+  background-color: #f5ba13;
+    margin: auto -16px;
+    padding: 16px 32px;
+    box-shadow: 0 0 10px 0 rgba(0, 0,0, 0.3); 
+}
+header h1{
+    color: white;
+    font-family: "Mclaren",cursive;
+    font-weight: 200;
+}
+footer{
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    width:100%;
+    height: 2.5rem;
+
+}
+footer p{
+    color: #ccc;
+}
+.note{
+    background: white;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px #ccc;
+    padding: 10px;
+    width: 240px;
+    margin: 16px;
+    float: left;
+}
+
+.note h1{
+    font-size: 1.1em;
+    margin-bottom: 6px;
+}
+.note p{
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    margin: 0;
+    text-align: center;
+}
+.note-container {
+    /* background-image: url("https://www.transparenttextures.com/patterns/diagmonds.png");   */
+    background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+    align-content: center;
+    text-align: center;
+background-color:  #3913f555;
+box-shadow:  0 1.1px 1.5px rgba(0, 0, 0, 0.7);
+    /* Add border to create a box */
+    padding: 10px; /* Add padding for spacing */
+    border-radius: 5px; /* Optional: Add border radius for rounded corners */
+    width: 21rem; /* Optional: Set width as per your requirement */
+margin-top: 5rem;
+}
+
+.note-container input
+ {
+    margin-top: 1.7rem;
+    width: 75%; /* Make input and textarea fill the container width */
+    margin-bottom: 2rem; /* Add spacing between input and textarea */
+}
+
+.note-container textarea {
+    width: calc(100% - 20px); 
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+    resize: vertical;
+    border: none;
+    width: 88%;
+     /* Allow vertical resizing of textarea */
+     margin-bottom: 10px; 
+}
+.inp{
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Comic Sans MS', sans-serif;;
+    background-color: #ffffff;
+    border-color: #ccc;
+    border: none;
+    border-bottom: #f5ba13;
+    border-bottom: 1px #f5ba13;
+}
+.but{
+    position: relative;
+    left:9.5rem;
+    top:2rem;
+
+    height:2.8rem;
+    
+    border-radius: 50%;
+    border-color: #3913f5d4;
+    
+text-align: center;
+font-family: 'Comic Sans MS', sans-serif;;
+}
+.butt{
+    font-size: 1rem;
+    font-family: 'Comic Sans MS', sans-serif;;
+
+   border-color: #f5ba13;
+    position: relative;
+    left:10.5rem;
+border: 1rem;
+color: #f5ba13;
+height:4rem;
+width:4rem;
+border-radius: 50%;
+}
+.but:hover{
+    background-color: black;
+    color: #f5ba13;
+}
+.noteh{
+    font-family: 'Comic Sans MS', sans-serif;;
+font-size: 1.2rem;
+}
+
+.notep{
+    font-family: 'Comic Sans MS', sans-serif;;
+    font-size: 1.2rem;
+}
+.note{
+    background-image: url("https://www.transparenttextures.com/patterns/gplay.png");
+    margin-top: 4rem;
+    /* background-color: #cccccc00; */
+    background-color: #ffffff;
+}
+body{
+
+}
